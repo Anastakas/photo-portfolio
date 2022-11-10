@@ -1,12 +1,54 @@
-/* font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;*/
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
 
+:root {
+  --default-font-family: "Roboto", sans-serif;
+  --heading-font-family: "Montserrat", sans-serif;
+  --button-color: #272142;
+  --heading-color: #f65282;
+}
+
+.photo {
+  background: url(/images/Elephant-013.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-family: var(--default-font-family);
+}
 h1 {
-  font-family: "Playfair Display", serif;
+  font-size: 72px;
   font-weight: bold;
+  letter-spacing: 2.5px;
 }
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+h1,
+h2,
+p {
+  font-weight: normal;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.hero p {
+  font-size: 24px;
   font-weight: bold;
-  font-size: 15px;
+  letter-spacing: 2.5px;
+}
+.btn-branding {
+  background: #fff;
+  border-radius: 50px;
+  color: var(--button-color);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 18px 30px;
 }
