@@ -15,38 +15,31 @@ h1 {
   font-size: 72px;
   font-weight: bold;
   letter-spacing: 2.5px;
+ 
 }
-@media (max-width: 798px) {
-  h1 {
-    font-size: 36px;
-  }
-}
+
 h1,
 h2,
 p {
   font-weight: normal;
-  color: red;
+  color: #fff;
 }
 
-.background-photo {
-  background-image: url(/images/Elephant-013.jpg);
+/*.background-photo*/
+.hero {
+  background: #000 url(/images/7_1_sm.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  background-position: center center;
-
-  margin-bottom: 20px;
+padding: 200px 0;
+text-align: center;
+  background-position: center;
+  margin: 22px 12px;
 }
 
-.hero {
-  text-align: center;
-  padding: 200px 20px;
-}
 .hero h2 {
   font-size: 18px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .hero p {
@@ -66,4 +59,14 @@ p {
 }
 .col-4 {
   padding: 5px;
+}
+@media (max-width: 762px) {
+  h1 {
+    font-size: 36px;
+  }
+  /*.background-photo*/ .hero {
+background: #000 url(/images/7_sm.jpg);
+ background-position: top;
+ background-size: cover;
+}
 }
