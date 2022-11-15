@@ -15,7 +15,6 @@ h1 {
   font-size: 72px;
   font-weight: bold;
   letter-spacing: 2.5px;
- 
 }
 
 h1,
@@ -30,8 +29,8 @@ p {
   background: #000 url(/images/7_1_sm.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-padding: 200px 0;
-text-align: center;
+  padding: 200px 0;
+  text-align: center;
   background-position: center;
   margin: 22px 12px;
 }
@@ -64,9 +63,13 @@ text-align: center;
   h1 {
     font-size: 36px;
   }
-  /*.background-photo*/ .hero {
-background: #000 url(/images/7_sm.jpg);
- background-position: top;
- background-size: cover;
+  /*.background-photo*/
+  .hero {
+    background: #000 url(/images/7_sm.jpg);
+    background-position: top;
+    background-size: cover;
+ 
+  }
 }
-}
+
+
