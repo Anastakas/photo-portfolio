@@ -24,6 +24,14 @@ p {
   color: #fff;
 }
 
+footer h3 {
+  font-size: 10px;
+  
+}
+footer a {
+  color: #000;
+}
+
 /*.background-photo*/
 .hero {
   background: #000 url(/images/7_1_sm.jpg);
@@ -63,12 +71,14 @@ p {
   h1 {
     font-size: 36px;
   }
-  /*.background-photo*/
   .hero {
     background: #000 url(/images/7_sm.jpg);
     background-position: top;
     background-size: cover;
- 
+  }
+  footer h3 {
+    font-size: 7px;
+    
   }
 }
 
