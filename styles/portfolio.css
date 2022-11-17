@@ -55,7 +55,7 @@ footer a {
   border: 1px solid #000;
 }
 .hero {
-  background: #000 url(/images/7_1_sm.jpg);
+  background: #000 url(/images/selfportrait.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px 0;
@@ -112,28 +112,27 @@ footer a {
   .content-container h1 {
     font-size: 36px;
   }
-  
-   footer h3 {
-  font-size: 10px;
-  text-align: left;
- }
 
-footer .sotial-networks {
-margin-bottom: 10px !important;
-}
+  footer h3 {
+    font-size: 10px;
+    text-align: left;
+  }
+
+  footer .sotial-networks {
+    margin-bottom: 10px !important;
+  }
   .hero {
     background: #000 url(/images/7_sm.jpg);
     background-position: top;
     background-size: cover;
   }
-.content {
-  text-align: center;
-}
- footer h3{
- text-align: center;
-}
-footer .icons {
-  text-align: center;
-}
-
+  .content {
+    text-align: center;
+  }
+  footer h3 {
+    text-align: center;
+  }
+  footer .icons {
+    text-align: center;
+  }
 }
