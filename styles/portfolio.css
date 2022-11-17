@@ -80,23 +80,23 @@ footer a {
   letter-spacing: 2.5px;
 }
 
-.about-section {
-  padding: 54px 10px 10px 10px;
+.content-container {
+  padding: 76px 10px 10px 10px;
 }
 
-.about-section h1,
-.about-section h2 {
+.content-container h1,
+.content-container h2 {
   color: #000;
   letter-spacing: 2.5px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 24px;
   font-weight: bold;
 }
-.about-section p {
+.content-container p {
   color: #000;
   letter-spacing: 0.5px;
   font-weight: 400;
@@ -104,12 +104,12 @@ footer a {
   font-size: 18px;
 }
 
-.about-section-description {
+.content {
   margin: 30px 10px 10px 30px;
 }
 @media (max-width: 900px) {
   .hero h1,
-  .about-section h1 {
+  .content-container h1 {
     font-size: 36px;
   }
   
@@ -126,7 +126,7 @@ margin-bottom: 10px !important;
     background-position: top;
     background-size: cover;
   }
-.about-section-description {
+.content {
   text-align: center;
 }
  footer h3{
