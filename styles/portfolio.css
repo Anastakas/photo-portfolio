@@ -50,6 +50,7 @@ footer a {
   font-size: 14px;
   letter-spacing: 1px;
   padding: 18px 30px;
+  transition: 100ms ease-in-out;
 }
 .btn-branding-reverce:hover {
   border: 1px solid #000;
@@ -107,6 +108,9 @@ footer a {
 
 .content {
   margin: 30px 10px 10px 30px;
+}
+.contact {
+  padding:0 0 80px 0;
 }
 .contact a {
   color: var(--button-color);
