@@ -18,7 +18,7 @@ p {
 }
 
 footer {
-  margin: 60px 10px 20px;
+  margin: 20px 10px 20px;
 }
 h3 {
   font-size: 12px;
@@ -42,7 +42,6 @@ footer a {
   padding: 18px 30px;
 }
 .btn-branding:hover {
-  
   border-radius: 50px;
   border: 1px solid #fff;
   color: #fff;
@@ -116,7 +115,8 @@ footer a {
   padding: 0 15px;
 }
 
-.contact a, .icons a {
+.contact a,
+.icons a {
   color: var(--button-color);
   text-decoration: none;
 }
@@ -153,5 +153,4 @@ footer a:hover {
   footer .sotial-networks {
     text-align: center;
   }
- 
 }
